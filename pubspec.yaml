@@ -1,0 +1,29 @@
+name: hello_doctor
+description: A new Flutter application.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  sizer: ^1.1.8
+  syncfusion_flutter_datepicker: ^18.4.49-beta
+  sms: ^0.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - image/ourlogo.png
+
+
+
